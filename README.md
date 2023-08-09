@@ -1,19 +1,19 @@
 ## 手順
 
-#### 1.　git clone https://github.com/tsubasahirakida/docker_react_rails.git
+#### 1.git clone https://github.com/tsubasahirakida/docker_react_rails.git
 
-#### 2. Docker Desktopの立ち上げ
+#### 2.Docker Desktopの立ち上げ
 
-#### 3. cd docker_react_rails
+#### 3.cd docker_react_rails
 
-#### 4. docker-compose build
+#### 4.docker-compose build
 
-#### 5. docker-compose up -d --build
+#### 5.docker-compose up -d --build
 ※ `-dオプション` バックグラウンドでコンテナが起動
 
-#### 7. localhost:3000にRails、localhost:8000にReactのサーバー起動
+#### 7.localhost:3000にRails、localhost:8000にReactのサーバー起動
 
-#### 8. docker-compose down
+#### 8.docker-compose down
 ※コンテナはメモリ容量大きいので、作業が終われば、コンテナを削除
 
 #### 9.再度コンテナを起動する際は、`docker-compose up -d`
